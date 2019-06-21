@@ -4,4 +4,11 @@
 # Examples:
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-   Article.create(name: Faker::Name.name  , sentence: Faker::Lorem.sentence)
+  Article.create(name: Faker::Name.name  , sentence: Faker::Lorem.sentence)
+  Article.create(name: Faker::Name.name  , sentence: Faker::Lorem.sentence)
+  Article.create(name: Faker::Name.name  , sentence: Faker::Lorem.sentence)
+  Article.create(name: Faker::Name.name  , sentence: Faker::Lorem.sentence)
+  Article.create(name: Faker::Name.name  , sentence: Faker::Lorem.sentence)
+  Article.create(name: Faker::Name.name  , sentence: Faker::Lorem.sentence)
+  Article.create(name: Faker::Name.name  , sentence: Faker::Lorem.sentence)
+  Article.create(name: Faker::Name.name  , sentence: Faker::Lorem.sentence)

@@ -1,12 +1,13 @@
 
 <% @articles.each do |article| %>
-  <h2><%= article.title %></h2>
-  <p><%= article.description %></p>
-  <p><%= article.ratings %></p>
+  <h2><%= article.name %></h2>
+  <p><%= article.sentence %></p>
+
 <%= link_to "Delete", article_path(article),
   method: :delete,
   data: { confirm: "Are you sure?" } %>
 <%= link_to "Update", article_path(article),
+  method: :update,
   data: { confirm: "Are you sure?" } %>
 <% end %>
 

@@ -4,7 +4,6 @@ class ArticleController < ApplicationController
   end
 
   def show
-        @article = Article.find(params[:id])
   end
 
   def new
@@ -23,9 +22,12 @@ class ArticleController < ApplicationController
   def update
      @article = Article.find(params[:id])
     @article.update(params[:article])
+    redirect_to article_index_path
   end
 
   def destroy
      @article = Article.find(params[:id])
+     @article.destroy
+     redirect_to article_index_path
   end
 end
